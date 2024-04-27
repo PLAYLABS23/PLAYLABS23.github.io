@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PLAYLABS</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- install htmlx -->
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./res/favicon.ico" type="image/x-icon">
+
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="./styles/root.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <nav hx-get="/nav" hx-trigger="load"></nav>
+    <main>
+        <div class="background-filter"></div>
+        <article>
+            <div class="message">
+                Our <strong>making</strong> makes<br>
+                <strong>people</strong> and<br>
+                the world.
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
