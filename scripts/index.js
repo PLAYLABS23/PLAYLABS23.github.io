@@ -1,10 +1,16 @@
 // page init
 function init() {
+    video = document.getElementById('bg-video');
     sections = document.querySelectorAll('section');
 }
 
 // page main script
 function main() {
+    // play video
+    video.playbackRate = 0.75;
+    video.playsInline = true;
+    video.play();
+
     // scroll section event
     observer = new IntersectionObserver((e) => {
         e.forEach((section) => {
