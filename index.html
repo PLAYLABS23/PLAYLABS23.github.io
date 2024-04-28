@@ -19,17 +19,28 @@
 </head>
 
 <body>
-    <nav hx-get="/nav" hx-trigger="load"></nav>
+    <!-- nav area -->
+    <nav hx-get="nav.html" hx-trigger="load"></nav>
+
+    <!-- main content -->
     <main>
-        <div class="background-filter"></div>
-        <article>
+        <!-- article 1 -->
+        <article class="article1">
+            <div class="background-filter"></div>
             <div class="message">
                 Our <strong>making</strong> makes<br>
                 <strong>people</strong> and<br>
                 the world.
             </div>
         </article>
+        <!-- article 2 -->
+        <article class="article2">
+            
+        </article>
     </main>
+
+    <!-- footer -->
+    <footer hx-get="footer.html" hx-trigger="load"></footer>
 </body>
 
 </html>
