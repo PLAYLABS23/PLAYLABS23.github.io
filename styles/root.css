@@ -10,9 +10,12 @@
 /* global variables */
 
 :root {
-    /* size */
+    /* font size */
     --header-font-size: clamp(1.2rem, 7vw, 6rem);
-    
+
+    /* line height */
+    --header-line-height: clamp(2rem, 5.7vw, 4.5rem);
+
     /* color */
     --accent: #44FFD2;
     --font-color: #F5F5F5;
