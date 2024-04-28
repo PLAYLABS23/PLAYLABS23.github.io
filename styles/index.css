@@ -16,7 +16,7 @@ section {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #000000C0;
+    background-color: #000000CA;
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
     z-index: 0;
@@ -35,6 +35,7 @@ section {
 	min-height: 100%;
 	width: auto;
 	height: auto;
+    pointer-events: none;
 }
 
 #section1 .message {
