@@ -1,3 +1,5 @@
+/* navbar */
+
 nav {
     position: fixed;
     width: 100%;
@@ -16,10 +18,40 @@ nav {
     justify-content: space-between;
 }
 
+/* mobile navbar */
+
+@media (max-width: 840px) {
+    nav {
+        height: 6rem;
+    }
+    .nav-container {
+        width: 100%;
+        height: 6rem;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* navbar logo */
+
 .nav-logo {
     width: fit-content;
     height: 2rem;
 }
+
+/* mobile navbar log */
+
+@media (max-width: 840px) {
+    .nav-logo {
+        width: fit-content;
+        height: 1.5rem;
+        margin-top: 1.45rem;
+    }
+}
+
+/* navbar menu */
 
 .nav-menu {
     position: relative;
@@ -35,7 +67,7 @@ nav {
     font-weight: 600;
     color: var(--font-color);
     text-decoration: none;
-    margin-left: 2rem;
+    margin: 0 0 0 2rem;
     border-radius: 2rem;
     padding: 0.4rem 1rem;
     transition: 0.2s cubic-bezier(0.14, 0.95, 0.11, 1.01);
@@ -44,4 +76,21 @@ nav {
 .nav-menu a:hover {
     color: var(--hover-font-color);
     background: var(--hover-background);
+}
+
+/* mobile navbar menu */
+
+@media (max-width: 840px) {
+    .nav-menu {
+        width: 100%;
+        margin: 1.45rem 0 0 0;
+        justify-content: space-evenly;
+    }
+
+    .nav-menu a {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0.3rem 0.5rem;
+        border-radius: 0.5rem;
+    }
 }
