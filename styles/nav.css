@@ -37,7 +37,7 @@ nav {
 /* navbar logo */
 
 .nav-logo {
-    width: fit-content;
+    width: auto;
     height: 2rem;
 }
 
@@ -45,9 +45,8 @@ nav {
 
 @media (max-width: 840px) {
     .nav-logo {
-        width: fit-content;
-        height: 1.5rem;
-        margin-top: 1.45rem;
+        height: 1.75rem;
+        margin-top: 1.2rem;
     }
 }
 
