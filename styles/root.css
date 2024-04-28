@@ -10,6 +10,10 @@
 /* global variables */
 
 :root {
+    /* size */
+    --header-font-size: clamp(1.2rem, 7vw, 6rem);
+    
+    /* color */
     --accent: #44FFD2;
     --font-color: #F5F5F5;
     --hover-background: #FFFFFF;
