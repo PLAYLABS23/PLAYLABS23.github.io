@@ -15,7 +15,11 @@
 
     /* background color */
     --default-background: #000000;
+    --default-background-alpha: #000000B0;
     --hover-background: #FFFFFF;
+
+    /* border color */
+    --menu-boarder-color: #2A2A2A;
 
     /* font color */
     --font-color: #F5F5F5;
@@ -23,6 +27,9 @@
 
     /* accent color */
     --accent: #44FFD2;
+
+    /* bezier */
+    --default-bezier: cubic-bezier(0.14, 0.95, 0.11, 1.01);
 }
 
 /* global setting */
