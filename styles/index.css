@@ -21,7 +21,7 @@ section {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #000000CA;
+    background-color: #000000B0;
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
     z-index: 0;
