@@ -13,9 +13,6 @@
     /* font size */
     --header-font-size: clamp(1.2rem, 7vw, 6rem);
 
-    /* line height */
-    --header-line-height: clamp(2rem, 8vw, 7rem);
-
     /* background color */
     --default-background: #000000;
     --hover-background: #FFFFFF;

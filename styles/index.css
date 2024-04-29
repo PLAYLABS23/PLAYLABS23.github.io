@@ -50,7 +50,6 @@ section {
     white-space: nowrap;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    line-height: var(--header-line-height);
 }
 
 #section1 strong {
