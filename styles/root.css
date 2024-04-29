@@ -14,13 +14,18 @@
     --header-font-size: clamp(1.2rem, 7vw, 6rem);
 
     /* line height */
-    --header-line-height: clamp(2rem, 5.7vw, 4.5rem);
+    --header-line-height: clamp(2rem, 8vw, 7rem);
 
-    /* color */
-    --accent: #44FFD2;
-    --font-color: #F5F5F5;
+    /* background color */
+    --default-background: #000000;
     --hover-background: #FFFFFF;
+
+    /* font color */
+    --font-color: #F5F5F5;
     --hover-font-color: #000000;
+
+    /* accent color */
+    --accent: #44FFD2;
 }
 
 /* global setting */
@@ -40,4 +45,5 @@
 html, body {
     height: 100vh;
     margin: 0;
+    background: var(--default-background);
 }
