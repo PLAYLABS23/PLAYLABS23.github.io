@@ -4,6 +4,7 @@ main {
     width: 100%;
     height: 100%;
     scroll-snap-type: y mandatory;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 
@@ -13,6 +14,7 @@ section {
     height: 100%;
     overflow: hidden;
     scroll-snap-align: start;
+    background-size: cover;
 }
 
 .background-filter {
@@ -28,8 +30,7 @@ section {
 /* section 1 */
 
 #section1 {
-    background-color: #000000;
-    background-size: cover;
+    background-color: var(--default-background);
 }
 
 #section1 video {
@@ -62,19 +63,16 @@ section {
 
 #section2 {
     background-color: bisque;
-    background-size: cover;
 }
 
 /* section 3 */
 
 #section3 {
     background-color: brown;
-    background-size: cover;
 }
 
 /* section 4 */
 
 #section4 {
     background-color: lightseagreen;
-    background-size: cover;
 }
