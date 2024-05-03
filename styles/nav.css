@@ -170,6 +170,12 @@ nav {
     background: var(--default-background);
     transition: 0.55s var(--default-bezier);
     transform: translateX(125%);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.mobile-nav-menu::-webkit-scrollbar {
+    display: none;
 }
 
 @media (max-width: 640px) {
