@@ -14,7 +14,6 @@ footer {
     height: 16rem;
     scroll-snap-align: start;
     background: var(--footer-background);
-    color: var(--footer-color);
 }
 
 .footer-container {
@@ -65,6 +64,12 @@ footer {
     font-size: 1rem;
     font-weight: 300;
     opacity: 0.75;
+    color: var(--footer-color);
+    text-decoration: none;
+}
+
+.footer-address:hover {
+    text-decoration: underline;
 }
 
 /* small footer content */
