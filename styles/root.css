@@ -6,6 +6,7 @@
 /* required stylesheets */
 
 @import url("./nav.css");
+@import url("./footer.css");
 
 /* global variables */
 
@@ -27,6 +28,7 @@
 
     /* accent color */
     --accent: #44FFD2;
+    --accent-alpha: #44FFD250;
 
     /* bezier */
     --default-bezier: cubic-bezier(0.14, 0.95, 0.11, 1.01);
