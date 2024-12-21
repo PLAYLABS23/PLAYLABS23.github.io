@@ -33,6 +33,7 @@
     <!-- link stylesheet -->
     <link rel="stylesheet" href="./styles/root.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/register.css">
 
     <!-- install htmlx -->
     <script defer src="https://unpkg.com/htmx.org@1.9.12"></script>
@@ -48,6 +49,21 @@
 
     <!-- main content -->
     <main>
+        <!-- register alert -->
+        <div class="register-background">
+            <div class="register-dialog">
+                <img src="res/register.png" class="register-image">
+                <div class="register-button-area">
+                    <div class="register-button" onclick="location.href='https://backgwa.kro.kr/PLAYLABS/'">
+                        <div>메이커 신청하기</div>
+                    </div>
+                    <div class="register-button low-effect" onclick="closeDialog();">
+                        <div>닫기</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- section 1 -->
         <section id="section1">
             <video id="bg-video" preload="auto" autoplay muted loop>

@@ -10,3 +10,9 @@ function main() {
     video.playsInline = true;
     video.play();
 }
+
+// close dialog
+function closeDialog() {
+    dialog = document.querySelector(".register-background");
+    dialog.classList.add("register-close");
+}
